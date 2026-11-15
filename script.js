@@ -979,7 +979,7 @@ const messageText = document.getElementById("messageText");
 // Anh thay chữ "lời chúc" bằng nội dung của mình.
 
 const page3Wish =
-  "Nhân ngày Nhà giáo Việt Nam 20/11, chúng em xin gửi đến thầy Đặng Tình lời chúc mừng và lòng biết ơn sâu sắc nhất. Cảm ơn thầy đã luôn tận tâm giảng dạy, truyền đạt những kiến thức bổ ích và những bài học ý nghĩa về kinh tế, pháp luật cũng như cách sống có trách nhiệm";
+  "hi";
 
 // ==================================================
 // XỬ LÝ NÚT TRÁI TIM
@@ -1030,7 +1030,7 @@ function revealMessage() {
     if (wordIndex >= words.length) return;
 
     // Cứ đủ 10 từ thì tạo dòng mới
-    if (wordIndex % 10 === 0) {
+    if (wordIndex % 20 === 0) {
       currentLine = document.createElement("div");
 
       currentLine.className = "message-line";
